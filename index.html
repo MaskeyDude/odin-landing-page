@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Wrapture</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <!-- website title and logo -->
+            <a href="index.html" class="web-name">
+                <svg
+                    class="logo"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    role="img"
+                    width="1.8em"
+                    height="1.8em"
+                    preserveAspectRatio="xMidYMid meet"
+                    viewBox="0 0 24 24"
+                >
+                    <path fill="currentColor" d="M3 9a1 1 0 0 0 1-1V5a1 1 0 0 1 1-1h3a1 1 0 0 0 0-2H5a3 3 0 0 0-3 3v3a1 1 0 0 0 1 1Zm5 11H5a1 1 0 0 1-1-1v-3a1 1 0 0 0-2 0v3a3 3 0 0 0 3 3h3a1 1 0 0 0 0-2Zm4-12a4 4 0 1 0 4 4a4 4 0 0 0-4-4Zm0 6a2 2 0 1 1 2-2a2 2 0 0 1-2 2Zm7-12h-3a1 1 0 0 0 0 2h3a1 1 0 0 1 1 1v3a1 1 0 0 0 2 0V5a3 3 0 0 0-3-3Zm2 13a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 0 0 2h3a3 3 0 0 0 3-3v-3a1 1 0 0 0-1-1Z"/>
+                </svg>
+                <h1>Wrapture</h1>
+            </a>
+            <!-- navbar -->
+            <nav>
+                <div class="desktop">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <!-- mobile navbar -->
+                <div class="drawer">
+                    <a class="opencloseBtn" onclick="drawer()">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                            role="img"
+                            width="1em"
+                            height="1em"
+                            preserveAspectRatio="xMidYMid meet"
+                            viewBox="0 0 24 24"
+                        >
+                            <path fill="currentColor" d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"/>
+                        </svg>
+                    </a>
+                    <div class="drawer-content">
+                        <a href="#">Home</a>
+                        <br>
+                        <a href="#">About</a>
+                        <br>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- website content -->
+        <article class="web-content">
+            <!-- section hero -->
+            <section class="hero">
+                <div class="hero-content">
+                    <!-- hero title -->
+                    <h1 class="hero-title">A journal is what you need</h1>
+                    <!-- hero about text -->
+                    <p class="hero-about">A best friend that remembers everything and whenever you feel like it you can share your can feelings with it so wrap your captures in one place</p>
+                    <!-- hero CTA btn -->
+                    <a href="#" class="hero-btn">Join Us</a>
+                </div>
+                <div class="hero-img">
+                    <a href="https://www.pexels.com/photo/blue-sea-under-blue-sky-4245826/" target="_blank">
+                        <img src="img/main.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            <!-- section about -->
+            <section class="about">
+                <!-- about title -->
+                <h2 class="about-title">
+                    Benefits of having a journal
+                </h2>
+                <!-- about content -->
+                <div class="about-content">
+                    <div class="content">
+                        <div class="box">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                                role="img"
+                                width="1em"
+                                height="1em"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 20 20"
+                            >
+                                <path fill="#930148" d="M6.13 2.793A3.91 3.91 0 0 1 8.5 2c.24 0 .431.125.542.211c.124.098.24.223.344.348a.5.5 0 0 1 .114.318V6.5H8.415a1.5 1.5 0 1 0 0 1H9.5v9.415a.5.5 0 0 1-.183.387C8.855 17.68 8.237 18 7.5 18c-1.186 0-2.069-.598-2.64-1.313a4.057 4.057 0 0 1-.819-1.752a2.68 2.68 0 0 1-1.054-.555C2.435 13.907 2 13.14 2 12c0-.557.037-1.06.12-1.5h3.13c.636 0 1.16.475 1.24 1.089a1.5 1.5 0 1 0 1.004-.006A2.25 2.25 0 0 0 5.25 9.5H2.441c.153-.298.358-.55.625-.729a1.58 1.58 0 0 1 .212-.118c-.284-.832-.21-1.806.064-2.571c.175-.492.453-.957.835-1.267c.252-.205.552-.34.88-.366c.144-.683.549-1.248 1.074-1.656ZM10.5 14.5h.75a2.25 2.25 0 0 0 2.25-2.25v-1.835a1.5 1.5 0 1 0-1 0v1.835c0 .69-.56 1.25-1.25 1.25h-.75V2.877a.5.5 0 0 1 .114-.318c.103-.125.22-.25.344-.348c.11-.086.301-.211.542-.211a3.91 3.91 0 0 1 2.37.793c.525.408.93.973 1.073 1.656c.328.025.628.161.88.366c.382.31.66.775.835 1.267c.274.765.348 1.74.064 2.57c.072.034.143.074.212.12c.275.183.484.445.638.754c.303.605.428 1.449.428 2.474c0 1.141-.435 1.907-.987 2.38a2.68 2.68 0 0 1-1.054.555c-.1.558-.38 1.204-.819 1.752c-.57.715-1.454 1.313-2.64 1.313c-.736 0-1.355-.32-1.816-.698a.5.5 0 0 1-.184-.387V14.5ZM7 6.5a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1Zm0 6a.5.5 0 1 0 0 1a.5.5 0 0 0 0-1Zm6-3a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1Z"/>
+                            </svg>
+                        </div>
+                        <p class="box-detail">You can be more aware of yourself</p>
+                    </div>
+                    <div class="content">
+                        <div class="box">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                                role="img"
+                                width="1em"
+                                height="1em"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 24 24"
+                            >
+                                <path fill="#930101" d="M16.5 3c-.96 0-1.9.25-2.73.69L12 9h3l-3 10l1-9h-3l1.54-5.39C10.47 3.61 9.01 3 7.5 3C4.42 3 2 5.42 2 8.5c0 4.13 4.16 7.18 10 12.5c5.47-4.94 10-8.26 10-12.5C22 5.42 19.58 3 16.5 3zm-6.26 13.73C6.45 13.34 4 11 4 8.5C4 6.54 5.54 5 7.5 5c.59 0 1.19.15 1.73.42L7.35 12h3.42l-.53 4.73zm4.89-1.2L17.69 7h-2.91l.61-1.82c.36-.12.74-.18 1.11-.18C18.46 5 20 6.54 20 8.5c0 2.21-2.02 4.43-4.87 7.03z"/>
+                            </svg>
+                        </div>
+                        <p class="box-detail">You can see how you overcame different struggles</p>
+                    </div>
+                    <div class="content">
+                        <div class="box">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                                role="img"
+                                width="1em"
+                                height="1em"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 24 24"
+                            >
+                                <path fill="#019367" d="m19.07 14.88l2.05 2.05L15.06 23H13v-2.06l6.07-6.06m1.97-1.75c.14 0 .27.06.38.17l1.28 1.28c.22.21.22.56 0 .77l-1 1l-2.05-2.05l1-1c.11-.11.25-.17.39-.17M21 9h-6v7l-2 2v-2h-2v6H9V9H3V7h18v2m-9-7c1.1 0 2 .9 2 2s-.9 2-2 2s-2-.9-2-2s.9-2 2-2Z"/>
+                            </svg>
+                        </div>
+                        <p class="box-detail">You can compare what changed and how it changed</p>
+                    </div>
+                    <div class="content">
+                        <div class="box">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                                role="img"
+                                width="1em"
+                                height="1em"
+                                preserveAspectRatio="xMidYMid meet"
+                                viewBox="0 0 20 20"
+                            >
+                                <path fill="#600193" d="M10.475 2.17a.75.75 0 0 0-.95 0l-2.75 2.25a.75.75 0 0 0 .95 1.16L10 3.72l2.275 1.86a.75.75 0 1 0 .95-1.16l-2.75-2.25Zm2.75 13.41l-2.75 2.25a.75.75 0 0 1-.95 0l-2.75-2.25a.75.75 0 0 1 .95-1.16L10 16.28l2.275-1.861a.75.75 0 1 1 .95 1.16ZM10.75 8.75a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0ZM10 12a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5Zm6-2.5a1.5 1.5 0 0 1 3 0v1a1.5 1.5 0 0 1-3 0v-1Zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-.5-.5Zm-11-1A1.5 1.5 0 0 0 5 9.5v1a1.5 1.5 0 0 0 3 0v-1A1.5 1.5 0 0 0 6.5 8ZM6 9.5a.5.5 0 0 1 1 0v1a.5.5 0 0 1-1 0v-1Zm6 0a1.5 1.5 0 0 1 3 0v1a1.5 1.5 0 0 1-3 0v-1Zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-.5-.5Zm-11-1A1.5 1.5 0 0 0 1 9.5v1a1.5 1.5 0 0 0 3 0v-1A1.5 1.5 0 0 0 2.5 8ZM2 9.5a.5.5 0 0 1 1 0v1a.5.5 0 0 1-1 0v-1Z"/>
+                            </svg>
+                        </div>
+                        <p class="box-detail">You can travel to the days that you forgot existed</p>
+                    </div>
+                </div>
+            </section>
+            <!-- section quote -->
+            <section class="quote-box">
+                <p class="quote">
+                    <span class="q1">"</span>
+                    What we do not somehow capture today is lost forever
+                    <span class="q2">"</span>
+                </p>
+                <p class="quote-by">-Jim Rohn</p>
+            </section>
+            <!-- section CTA -->
+            <section class="cta">
+                <!-- cta title and about -->
+                <div class="cta-text">
+                    <h4 class="cta-title">Wrap your captures!</h4>
+                    <p class="cta-about">Start your journey with only one line a day!</p>
+                </div>
+                <!-- cta btn -->
+                <a href="#" class="cta-btn">Join Us</a>
+            </section>
+        </article>
+        <!-- footer -->
+        <footer>
+            Copyright &copy; Wrapture
+            <script>
+          document.write(new Date().getFullYear());
+            </script>
+            <a href="https://twitter.com/maskeydude" target="_blank" class="MD">Website by OmerMD</a>
+        </footer>
+    </body>
+</html>
